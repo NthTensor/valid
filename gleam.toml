@@ -1,0 +1,11 @@
+name = "valid"
+version = "1.0.0"
+description = "The gleam validation library"
+licences = ["MIT"]
+
+[dependencies]
+gleam_stdlib = "~> 0.28"
+gleam_json = "~> 0.5"
+
+[dev-dependencies]
+gleeunit = "~> 0.10"
